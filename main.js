@@ -11,7 +11,7 @@ const sr = ScrollReveal({
 sr.reveal('.project-box',{interval: 200})
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})
-/* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
+
 /* -- ABOUT INFO & CONTACT INFO -- */
 const srLeft = ScrollReveal({
   origin: 'left',
@@ -33,3 +33,11 @@ const srRight = ScrollReveal({
 srRight.reveal('.skills-box',{delay: 100})
 srRight.reveal('.form-control',{delay: 100})
 
+/* ----- TYPING EFFECT ----- */
+var typingEffect = new Typed(".typedText",{
+  strings : ["Claire","UX/UI Designer"],
+  loop : true,
+  typeSpeed : 100, 
+  backSpeed : 80,
+  backDelay : 2000
+})

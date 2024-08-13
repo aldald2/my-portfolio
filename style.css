@@ -176,7 +176,7 @@ span{
     flex-wrap: wrap;
 }
 .project-box{
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,6 +193,9 @@ span{
     font-size: 15px;
     color: #777;
 }
+
+
+
 
 
 
